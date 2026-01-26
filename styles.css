@@ -114,6 +114,7 @@ h3 {
     font-size: 1.5em;
     color: var(--yellow);
     font-weight: bold;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -203,6 +204,37 @@ h4 {
     background-color: var(--white);
 }
 
+table {
+    margin: auto;
+}
+
 table, td {
-    border: 1px solid var(--yellow);
+    border: 1.5px solid var(--yellow);
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    background-color: var(--yellow);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+td {
+    background-color: var(--white);
+}
+
+#first-step p {
+    color: var(--white);
+}
+
+#first-step a {
+    background-color: var(--white);
+    border-radius: 5px;
+    color: var(--dk-gray);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
 }
