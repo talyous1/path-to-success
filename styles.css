@@ -228,6 +228,7 @@ td {
 
 #first-step p {
     color: var(--white);
+    line-height: 25px;
 }
 
 #first-step a {
@@ -242,14 +243,15 @@ td {
     font-weight: 800;
     text-decoration: none;
     box-shadow: 5px 5px 5px var(--dk-gray);
+    
 }
 
 footer {
     display: flex;
     padding: 50px;
+    gap: 90px;
 }
 
 footer p, footer a {
     color: var(--white);
-    text-decoration: none;
 }
