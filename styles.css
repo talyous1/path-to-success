@@ -231,10 +231,13 @@ td {
 }
 
 #first-step a {
+    display: block;
+    margin: auto;
+    text-align: center;
     background-color: var(--white);
     border-radius: 5px;
     color: var(--dk-gray);
     text-transform: uppercase;
     font-weight: bold;
-    text-align: center;
+    text-decoration: none;
 }
