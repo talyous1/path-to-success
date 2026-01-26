@@ -173,15 +173,19 @@ h4 {
 
 #why-choose-us ul {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     row-gap: 15px;
     column-gap: 15px;
 }
 
 #why-choose-us li {
-    background-color: var(--white);
+    font-size: 1.2rem;
     text-align: center;
     border-radius: 15px;
-    padding: 20px 40px;
+    padding: 40px 30px;
     font-weight: bold;
+}
+
+#why-choose-us li:nth-child {
+    
 }
