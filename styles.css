@@ -247,5 +247,9 @@ td {
 footer {
     display: flex;
     padding: 50px;
-    text-align: center;
+}
+
+footer p, footer a {
+    color: var(--white);
+    text-decoration: none;
 }
