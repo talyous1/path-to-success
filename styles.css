@@ -114,6 +114,7 @@ h3 {
     font-size: 1.5em;
     color: var(--yellow);
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 h4 {
@@ -200,4 +201,8 @@ h4 {
 
 #why-choose-us li:nth-child(4) {
     background-color: var(--white);
+}
+
+table, td {
+    border: 1px solid var(--yellow);
 }
