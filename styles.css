@@ -82,7 +82,7 @@ h1, h2 {
 h1 {
     font-size: 3em;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 header {
@@ -107,11 +107,13 @@ nav h2 {
 
 h2 {
     font-size: 2em;
+    padding-bottom: 10px;
 }
 
 h3 {
     font-size: 1.5em;
     color: var(--yellow);
+    font-weight: bold;
 }
 
 h4 {
@@ -124,7 +126,7 @@ h4 {
 }
 
 #top {
-    padding-bottom: 35px;
+    padding-bottom: 40px;
 }
 
 #menu {
