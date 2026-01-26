@@ -70,6 +70,10 @@
 }
 
 /* GLOBAL STYLES (mobile first/small) */
+body {
+    background-color: var(--purple);
+}
+
 h1, h2 {
     font-family: "Kavoon";
     color: var(--white);
@@ -112,6 +116,14 @@ h4 {
     color: var(--purple);
 }
 
-#top {
-    background-color: var(--purple);
+#menu {
+    background-color: var(--yellow);
+}
+
+#why-choose-us {
+    background-color: var(--pink);
+}
+
+#first-step {
+    background-color: var(--pink);
 }
