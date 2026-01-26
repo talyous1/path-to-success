@@ -135,6 +135,18 @@ h4 {
     color: var(--dk-gray);
 }
 
+#menu a {
+    display: block;
+    text-transform: uppercase;
+    color: var(--purple);
+    font-weight: bold;
+    background-color: var(--white);
+    text-decoration: none;
+    width: 300px;
+    margin: 0px auto;
+    padding: ;
+}
+
 #why-choose-us {
     background-color: var(--pink);
 }
