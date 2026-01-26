@@ -142,9 +142,9 @@ h4 {
     font-weight: bold;
     background-color: var(--white);
     text-decoration: none;
-    width: 300px;
-    margin: 0px auto;
-    padding: ;
+    width: 450px;
+    margin: 0 auto 0px;
+    padding: 15px 0px;
 }
 
 #why-choose-us {
