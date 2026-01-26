@@ -157,3 +157,9 @@ h4 {
     background-color: var(--pink);
 }
 
+#service {
+    background-color: var(--white);
+    margin: 15px 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
