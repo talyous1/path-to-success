@@ -162,7 +162,7 @@ h4 {
 .service {
     background-color: var(--white);
     margin: 15px 10px;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 20px;
 }
 
@@ -174,8 +174,14 @@ h4 {
 #why-choose-us ul {
     display: grid;
     grid-template-columns: auto auto;
+    row-gap: 15px;
+    column-gap: 15px;
 }
 
 #why-choose-us li {
-    background-color: ;
+    background-color: var(--white);
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px 40px;
+    font-weight: bold;
 }
