@@ -159,14 +159,23 @@ h4 {
     background-color: var(--pink);
 }
 
-#service {
+.service {
     background-color: var(--white);
     margin: 15px 10px;
     border-radius: 10px;
     padding: 20px;
 }
 
-#service p {
+.service p {
     font-weight: 500;
     line-height: 23px;
+}
+
+#why-choose-us ul {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#why-choose-us li {
+    background-color: ;
 }
