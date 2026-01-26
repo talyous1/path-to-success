@@ -119,6 +119,8 @@ h3 {
 h4 {
     font-size: 1.15em;
     color: var(--purple);
+    padding: 10px 0px;
+    font-weight: 800;
 }
 
 #top, #menu, #our-services, #why-choose-us, #pricing, #first-step {
@@ -162,4 +164,9 @@ h4 {
     margin: 15px 10px;
     border-radius: 10px;
     padding: 20px;
+}
+
+#service p {
+    font-weight: 500;
+    line-height: 23px;
 }
