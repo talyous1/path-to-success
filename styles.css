@@ -54,7 +54,7 @@
 
 /* ROOT VARIABLES */
 :root {
-    font-family: "Inter";
+    --body-font: "Inter";
     --teal: #4CA7C0;
     --purple: #484FB7;
     --lavender: #6B8FE7;
@@ -62,7 +62,9 @@
     --pink: #D9526F;
     --dk-gray: #1E1E1E;
     --white: #ffffff;
+
     background-color: var(--lavender);
+    font-family: var(--body-font);
 }
 
 /* GLOBAL STYLES (mobile first/small) */
@@ -77,6 +79,17 @@ h1 {
 
 header {
     text-align: center;
+}
+
+header p {
+    color: var(--white);
+}
+
+header h2 {
+    font-family: var(--body-font);
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 nav h2 {
