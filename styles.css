@@ -81,6 +81,8 @@ h1, h2 {
 
 h1 {
     font-size: 3em;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 header {
@@ -89,6 +91,7 @@ header {
 
 header p {
     color: var(--white);
+    font-style: italic;
 }
 
 header h2 {
@@ -117,7 +120,7 @@ h4 {
 }
 
 #top, #menu, #our-services, #why-choose-us, #pricing, #first-step {
-    padding: 10px;
+    padding: 20px;
 }
 
 #menu {
