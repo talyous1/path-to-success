@@ -161,14 +161,14 @@ h4 {
     background-color: var(--pink);
 }
 
-.service {
+#our-services section {
     background-color: var(--white);
     margin: 15px 10px;
     border-radius: 15px;
     padding: 20px;
 }
 
-.service p {
+#our-services section p {
     font-weight: 500;
     line-height: 23px;
 }
