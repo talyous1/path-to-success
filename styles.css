@@ -65,7 +65,7 @@
 
     background-color: var(--lavender);
     font-family: var(--body-font);
-    max-width: 500px;
+    max-width: 450px;
     margin: auto;
 }
 
@@ -148,7 +148,7 @@ h4 {
     font-weight: 700;
     background-color: var(--white);
     text-decoration: none;
-    width: 450px;
+    max-width: 450px;
     margin: 0 auto 10px;
     padding: 15px 0px;
 }
@@ -184,7 +184,7 @@ h4 {
     font-size: 1.2rem;
     text-align: center;
     border-radius: 15px;
-    padding: 40px 30px;
+    padding: 40px 20px;
     font-weight: 700;
 }
 
@@ -233,7 +233,7 @@ td {
 
 #first-step a {
     display: block;
-    margin: 10px 30px 0px 30px;
+    margin: 10px 20px -10px 20px;
     padding: 25px 0px;
     text-align: center;
     background-color: var(--white);
@@ -243,15 +243,21 @@ td {
     font-weight: 800;
     text-decoration: none;
     box-shadow: 5px 5px 5px var(--dk-gray);
-    
+    align-items: center;
 }
 
 footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 50px;
-    gap: 90px;
+    gap: 60px;
+    font-size: smaller;
 }
 
 footer p, footer a {
     color: var(--white);
+}
+footer p {
+    text-align: center;
 }
